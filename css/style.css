@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+}
+
+section a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#contenitorearancio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 44px;
+    background-color: rgba(255, 136, 0, 0.726);
+}
+
+#contenitorearancio img{
+    height: 30px;
+}
+
+.loghini{
+    display: block;
+    align-items: center;
+    width: 57px;
+    height: 30px;
+}
