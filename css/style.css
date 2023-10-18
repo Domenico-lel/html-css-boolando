@@ -19,9 +19,12 @@ section a{
 #contenitorearancio img{
     height: 30px;
 }
+.fa-regular, .fa-solid{
+    padding-right: 9px;
+}
 
 .loghini{
-    display: block;
+    display: flex;
     align-items: center;
     width: 57px;
     height: 30px;
