@@ -1,8 +1,10 @@
 *{
     margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-section a{
+.contenitorelink a{
     text-decoration: none;
     color: #fff;
     cursor: pointer;
@@ -28,4 +30,85 @@ section a{
     align-items: center;
     width: 57px;
     height: 30px;
+}
+
+/*fine header*/
+
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.col{
+    width: calc((100% / 3) - 10px);
+    margin: 0 5px;
+    position: relative;
+    min-height: 100px;
+}
+
+.img_prod img{
+    width: 100%;
+    
+}
+
+
+.ultimo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 50px;
+    margin-top: 1px;
+    background: rgb(31, 29, 29);
+}
+
+.fondo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 810px;
+    height: 50px;
+}
+
+.logo, .bottone{
+    font-size: 13px;
+    height: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.label{
+    display: inline-block;
+    position: absolute;
+    bottom: 15%;
+    left: 0;
+    width: 45px;
+    height: 25px;
+    color: white;
+    background-color: crimson;
+    text-align: center;
+    line-height: 25px;
+}
+.text{
+    display: inline-block;
+    position: absolute;
+    bottom: 15%;
+    left: 50px;
+    width: 90px;
+    height: 25px;
+    color: white;
+    background-color: forestgreen;
+    text-align: center;
+    line-height: 25px;
+}
+.heart {
+    position: absolute;
+    top: 5%;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    font-size: x-large;
+    line-height: 40px;
 }
